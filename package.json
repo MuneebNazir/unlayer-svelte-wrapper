@@ -1,6 +1,6 @@
 {
   "name": "@mmuneebahmad/unlayer-svelte-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Svelte wrapper component for the Unlayer email editor",
   "type": "module",
   "main": "./dist/index.js",

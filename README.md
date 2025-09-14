@@ -15,14 +15,14 @@ A modern, TypeScript-first Svelte wrapper for the [Unlayer](https://unlayer.com/
 ## Installation
 
 ```bash
-npm install @your-username/unlayer-svelte-wrapper
+npm install @mmuneebahmad/unlayer-svelte-wrapper
 ```
 
 ## Quick Start
 
 ```svelte
 <script>
-  import { UnlayerEditor } from '@your-username/unlayer-svelte-wrapper';
+  import { UnlayerEditor } from '@mmuneebahmad/unlayer-svelte-wrapper';
   
   let editor;
   let isEditorReady = false;
@@ -107,7 +107,7 @@ A pre-built modal for handling design exports.
 
 ```svelte
 <script>
-  import { UnlayerEditor } from '@your-username/unlayer-svelte-wrapper';
+  import { UnlayerEditor } from '@mmuneebahmad/unlayer-svelte-wrapper';
 
   const editorOptions = {
     displayMode: 'email',
@@ -142,7 +142,7 @@ A pre-built modal for handling design exports.
 
 ```svelte
 <script>
-  import { UnlayerEditor, ExportModal } from '@your-username/unlayer-svelte-wrapper';
+  import { UnlayerEditor, ExportModal } from '@mmuneebahmad/unlayer-svelte-wrapper';
   
   let editor;
   let showExportModal = false;
@@ -171,7 +171,7 @@ A pre-built modal for handling design exports.
 
 ```svelte
 <script>
-  import { UnlayerEditor, createSampleDesign } from '@your-username/unlayer-svelte-wrapper';
+  import { UnlayerEditor, createSampleDesign } from '@mmuneebahmad/unlayer-svelte-wrapper';
   
   const initialDesign = createSampleDesign();
 </script>
@@ -189,7 +189,7 @@ import type {
   UnlayerDesign, 
   ExportData,
   EditorLoadedEvent 
-} from '@your-username/unlayer-svelte-wrapper';
+} from '@mmuneebahmad/unlayer-svelte-wrapper';
 
 const options: UnlayerOptions = {
   displayMode: 'email',

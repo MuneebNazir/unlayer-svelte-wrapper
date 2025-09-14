@@ -1,0 +1,83 @@
+{
+  "name": "@mmuneebahmad/unlayer-svelte-wrapper",
+  "version": "1.0.0",
+  "description": "A Svelte wrapper component for the Unlayer email editor",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "svelte": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "svelte": "./dist/index.js",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "package": "svelte-package && publint",
+    "prepublishOnly": "npm run package",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^3.0.0",
+    "@sveltejs/kit": "^2.0.0",
+    "@sveltejs/package": "^2.0.0",
+    "@sveltejs/vite-plugin-svelte": "^6.1.1",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/svelte": "^5.2.8",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-svelte": "^2.35.0",
+    "jsdom": "^27.0.0",
+    "prettier": "^3.0.0",
+    "prettier-plugin-svelte": "^3.1.0",
+    "publint": "^0.2.0",
+    "svelte": "^5.38.1",
+    "svelte-check": "^4.0.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.3.0",
+    "vite": "^7.1.2",
+    "vitest": "^3.2.4"
+  },
+  "peerDependencies": {
+    "svelte": "^4.0.0 || ^5.0.0"
+  },
+  "keywords": [
+    "svelte",
+    "unlayer",
+    "email-editor",
+    "email-builder",
+    "typescript",
+    "component",
+    "wrapper"
+  ],
+  "author": "Muneeb Nazir <mmnazir157@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MuneebNazir/unlayer-svelte-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MuneebNazir/unlayer-svelte-wrapper/issues"
+  },
+  "homepage": "https://github.com/MuneebNazir/unlayer-svelte-wrapper#readme"
+}

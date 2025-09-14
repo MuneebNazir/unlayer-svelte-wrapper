@@ -1,5 +1,5 @@
 export { default as UnlayerEditor } from './UnlayerEditor.svelte';
 export { default as ExportModal } from './ExportModal.svelte';
-export type * from './types.js';
-export * from './utils.js';
+export type { UnlayerOptions, UnlayerDesign, ExportData, UnlayerInstance } from './types';
+export * from './utils';
 //# sourceMappingURL=index.d.ts.map

@@ -1,5 +1,5 @@
-// Re-export everything from your components
+// Component exports
 export { default as UnlayerEditor } from './UnlayerEditor.svelte';
 export { default as ExportModal } from './ExportModal.svelte';
-// Export utilities
-export * from './utils.js';
+// Utility exports (if you have them)
+export * from './utils';
